@@ -21,6 +21,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.clear{
+    clear: both;
+}
 *{
     transition: all 0.5s;
 }
@@ -174,12 +177,12 @@ body{
 }
 
 /*
-===========================================================================================
+===========================================================================================================
                               header and menu Small devices landscape phones
-==========================================================================================
+============================================================================================================
 */
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 599px) {
     /* header started****************************/
     .wrapper header{
         border: 1px solid #ff61fd;
@@ -235,7 +238,6 @@ body{
         height: auto;
         border: 1px solid #3dfff8;
         overflow: hidden;
-        padding-bottom: 30px;
         display: block;
     }
 
@@ -247,12 +249,17 @@ body{
         border: 1px solid #fcff6d;
         overflow: hidden;
         float: left;
-        margin-right: 10px;
+        margin-right: 12px;
         width: 64px;
         height: 68px;
         margin-top: 100px;
         cursor: pointer;
     }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
 
     .wrapper header .content_header .bottom_header .icons:hover{
         background-image: url("../images/header/icon_hader2.png");
@@ -282,6 +289,20 @@ body{
         left:15px;
         z-index: 100;
         font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
     }
 
 
@@ -360,3 +381,3430 @@ body{
         background-color: #9f449b;
     }
 }
+
+@media (min-width: 600px) and (max-width: 629px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 13px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 12px;
+        width: 68px;
+        height: 74px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 68px;
+        height: 74px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 13px;
+        left:25px;
+        color: white;
+        z-index: 100;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 10px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 0;
+        left:15px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+        text-align: center;
+
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:100%;
+        display: inline-block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:100%;
+        height: auto;
+        border: 1px solid #fcff6d;
+        margin-top: 20px;
+        display: none;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: none;
+        list-style: none;
+        margin-bottom: 5px;
+        padding: 10px 0;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li:hover{
+        background-color: #9f449b;
+    }
+}
+
+@media (min-width: 630px) and (max-width: 669px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 13px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 12px;
+        width: 72px;
+        height: 79px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 72px;
+        height: 79px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 13px;
+        left:25px;
+        color: white;
+        z-index: 100;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 14px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 13px;
+        left: 15px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+        text-align: center;
+
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:100%;
+        display: inline-block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:100%;
+        height: auto;
+        border: 1px solid #fcff6d;
+        margin-top: 20px;
+        display: none;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: none;
+        list-style: none;
+        margin-bottom: 5px;
+        padding: 10px 0;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li:hover{
+        background-color: #9f449b;
+    }
+}
+
+@media (min-width: 670px) and (max-width: 719px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 13px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 12px;
+        width: 77px;
+        height: 84px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 77px;
+        height: 84px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 13px;
+        left:25px;
+        color: white;
+        z-index: 100;
+        font-size: 20px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 14px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 13px;
+        left: 15px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+        text-align: center;
+
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:100%;
+        display: inline-block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:100%;
+        height: auto;
+        border: 1px solid #fcff6d;
+        margin-top: 20px;
+        display: none;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: none;
+        list-style: none;
+        margin-bottom: 5px;
+        padding: 10px 0;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li:hover{
+        background-color: #9f449b;
+    }
+}
+
+@media (min-width: 720px) and (max-width: 749px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 13px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 9px;
+        width: 86px;
+        height: 94px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 86px;
+        height: 94px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 13px;
+        left: 30px;
+        color: white;
+        z-index: 100;
+        font-size: 26px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 14px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 9px;
+        left: 24px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+        text-align: center;
+
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:100%;
+        display: inline-block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:100%;
+        height: auto;
+        border: 1px solid #fcff6d;
+        margin-top: 20px;
+        display: none;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: none;
+        list-style: none;
+        margin-bottom: 5px;
+        padding: 10px 0;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li:hover{
+        background-color: #9f449b;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 767px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 13px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 12px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 9px;
+        width: 90px;
+        height: 98px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90px;
+        height: 98px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 13px;
+        left: 30px;
+        color: white;
+        z-index: 100;
+        font-size: 26px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 14px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 9px;
+        left: 24px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+        text-align: center;
+
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:100%;
+        display: inline-block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:100%;
+        height: auto;
+        border: 1px solid #fcff6d;
+        margin-top: 20px;
+        display: none;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: none;
+        list-style: none;
+        margin-bottom: 5px;
+        padding: 10px 0;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: white;
+    }
+    .wrapper .menu .content nav ul li:hover{
+        background-color: #9f449b;
+    }
+}
+
+
+
+/*
+===========================================================================================================
+                              // Medium devices (tablets, 768px and up)
+============================================================================================================
+*/
+
+@media (min-width: 768px) and (max-width: 809px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 11px;
+        width: 91px;
+        height: 101px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 91px;
+        height: 101px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 13px;
+        left: 31px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 14px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 22px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 810px) and (max-width: 840px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 18px;
+        width: 91px;
+        height: 101px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 91px;
+        height: 101px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 13px;
+        left: 31px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 14px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 22px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 841px) and (max-width: 879px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 11px;
+        width: 100px;
+        height: 108px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 108px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 15px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 28px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 880px) and (max-width: 919px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 18px;
+        width: 100px;
+        height: 108px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 108px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 15px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 28px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 920px) and (max-width: 959px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 24px;
+        width: 100px;
+        height: 108px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 108px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 15px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 28px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 991px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 31px;
+        width: 100px;
+        height: 108px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100px;
+        height: 108px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 15px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 28px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+
+
+/*
+===========================================================================================================
+                             Large devices (desktops, 992px and up)
+============================================================================================================
+*/
+
+@media (min-width: 992px) and (max-width: 1030px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 30px;
+        width: 105px;
+        height: 114px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 105px;
+        height: 114px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 15px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 28px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 1031px) and (max-width: 1069px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 30px;
+        width: 110px;
+        height: 120px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 110px;
+        height: 120px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 16px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 35px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 1070px) and (max-width: 1110px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: xx-large;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: x-large;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 17px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 15px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 30px;
+        width: 115px;
+        height: 125px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 115px;
+        height: 125px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 16px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 35px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 10px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 13px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 1111px) and (max-width: 1150px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: 50px;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: 50px;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 23px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 22px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-right: 37px;
+        width: 115px;
+        height: 125px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+    .wrapper header .content_header .bottom_header .icons:nth-of-type(4){
+        margin-right: 0!important;
+        float: right;
+    }
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 115px;
+        height: 125px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 16px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 35px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: 30px;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 15px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 18px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+@media (min-width: 1151px) and (max-width: 1199px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: 50px;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: 50px;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 23px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 22px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+        text-align: center;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-left: 31px;
+        width: 115px;
+        height: 125px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 115px;
+        height: 125px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 27px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 16px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 35px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: 30px;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 15px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 18px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+
+/*
+===========================================================================================================
+                             // Extra large devices (large desktops, 1200px and up)
+============================================================================================================
+*/
+
+@media (min-width: 1200px) {
+    /* header started****************************/
+    .wrapper header{
+        border: 1px solid #ff61fd;
+        width: 100%;
+        height: auto;
+        background-image: url("../images/header/bg_header.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        text-align: center;
+    }
+    /* content started****************************/
+    .wrapper header .content_header{
+        border: 1px solid #1917ff;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .wrapper header .content_header .top_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #fff94c;
+        text-align: center;
+    }
+    .wrapper header .content_header .top_header .logo{
+        margin-top: 20px;
+    }
+    .wrapper header .content_header .top_header .logo a{
+        color: white;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: 90px;
+    }
+    .wrapper header .content_header .top_header .logo a span{
+        color: #9f449b;
+        font-size: 90px;
+    }
+    .wrapper header .content_header .top_header h2{
+        color: white;
+        font-size: 48px;
+        font-family: Lato-Hairline;
+        margin-top: 0;
+    }
+    .wrapper header .content_header .top_header  p{
+        color: white;
+        font-size: 24px;
+        font-family: Lato-Hairline;
+    }
+    /*bottom_header********************/
+    .wrapper header .content_header .bottom_header{
+        width: 100%;
+        height: auto;
+        border: 1px solid #3dfff8;
+        overflow: hidden;
+        display: block;
+        text-align: center;
+    }
+
+    .wrapper header .content_header .bottom_header .icons{
+        background-image: url("../images/header/icon_hader.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border: 1px solid #fcff6d;
+        overflow: hidden;
+        float: left;
+        margin-left: 26px;
+        width: 128px;
+        height: 138px;
+        margin-top: 100px;
+        cursor: pointer;
+    }
+
+
+
+    .wrapper header .content_header .bottom_header .icons:hover{
+        background-image: url("../images/header/icon_hader2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 128px;
+        height: 138px;
+        overflow:hidden;
+        cursor: pointer;
+        margin-top: 30px;
+        transition: all 1s;
+    }
+
+    .wrapper header .content_header .bottom_header .icons .svg-inline--fa{
+        position: absolute;
+        top: 25px;
+        left: 38px;
+        color: white;
+        z-index: 100;
+        font-size: 40px;
+    }
+    .wrapper header .content_header .bottom_header .icons p{
+        color: white;
+        font-size: 18px;
+        margin-top: 42px;
+        position: absolute;
+        bottom: 8px;
+        left: 32px;
+        z-index: 100;
+        font-family: Lato-Hairline;
+    }
+
+    .wrapper header .content_header .bottom_header .arrow_header{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+        text-align: center;
+        border: 1px solid white;
+        overflow: hidden;
+    }
+    .wrapper header .content_header .bottom_header .arrow_header img{
+        width: auto;
+        height: auto;
+        cursor: pointer;
+    }
+
+
+    /*menu started***************************/
+    .wrapper .menu{
+        width: 100%;
+        height: auto;
+        background-color: white;
+        border: 1px solid #ff61fd;
+        padding: 30px 0;
+        text-align: center;
+    }
+    .wrapper .menu .content{
+        border: 1px solid orange;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .wrapper .menu .content .menu_logo{
+        width:auto;
+        display:block;
+        border: 1px solid #ff61fd;
+        font-size: larger;
+        float: left;
+    }
+    .wrapper .menu .content .menu_logo a{
+        color: #676767;
+        text-decoration: none;
+        font-family: Existence Light;
+        font-size: 30px;
+    }
+    .wrapper .menu .content .menu_logo a span{
+        color: #9f449b;
+    }
+    .wrapper .menu .content .menu_logo .home_icon{
+        float: right;
+        width: auto;
+        height: auto;
+        cursor: pointer;
+        display: none;
+    }
+    .wrapper .menu .content .menu_logo .home_icon .svg-inline--fa{
+        color: #9f449b;
+    }
+    /*nav*******************/
+    .wrapper .menu .content nav{
+        width:auto;
+        height: auto;
+        border: 1px solid #fcff6d;
+        display: block;
+        float: right;
+
+    }
+    .wrapper .menu .content nav ul{
+        padding: 0;
+        margin: 0;
+    }
+    .wrapper .menu .content nav ul li{
+        float: left;
+        list-style: none;
+        padding:0;
+        margin-left: 15px;
+    }
+    .wrapper .menu .content nav ul li a{
+        text-decoration: none;
+        color: #676767;
+        font-family: Lato-Light;
+        width: 100%;
+        font-size: 18px;
+    }
+    .wrapper .menu .content nav ul li:hover a{
+        color: #9f449b;
+    }
+    .wrapper .menu .content nav ul li a:focus{
+        color: #9f449b;
+    }
+}
+
+
